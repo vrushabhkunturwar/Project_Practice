@@ -12,13 +12,17 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <!-- Fontawesome  -->
+     <script src="https://kit.fontawesome.com/8a8960c228.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Header  -->
      <section class="header">
         <nav>
             <a href="index.html"><img src="eduford_img/logo.png" alt="Logo"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -27,6 +31,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
 
 
@@ -37,5 +42,9 @@
             <a href="" class="hero-btn">Visit Us To Know More</a>
          </div>
      </section>
+
+
+     <!-- javascript  -->
+      <script src="script.js"></script>
 </body>
 </html>
