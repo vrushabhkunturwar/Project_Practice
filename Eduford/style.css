@@ -303,7 +303,26 @@ h3:hover::after{
     .testimonials-col img{
         margin-left: 0px;
         margin-right: 15px;
-        
-    
      }
+     .cta h1{
+        font-size: 24px;
+     }
+ }
+
+ /* Call To Action  */
+
+ .cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+ }
+ .cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
  }
